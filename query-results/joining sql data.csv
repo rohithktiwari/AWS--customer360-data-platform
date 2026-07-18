@@ -1,0 +1,3 @@
+"ticketid","customerid","issuetype","status","priority","createddate","resolutiondays"
+"TKT0000001","CUST008048","Refund","Pending","Medium","2025-04-26","12"
+"TKT0000002","CUST032733","Damaged Product","Pending","Medium","2024-11-27","7"
