@@ -1,4 +1,4 @@
-# AWS--cu# Customer 360 Data Platform on AWS
+# AWS -Customer 360 Data Platform on AWS
 ![AWS](https://img.shields.io/badge/AWS-232F3E?style=for-the-badge&logo=amazonaws&logoColor=white)
 ![Amazon S3](https://img.shields.io/badge/Amazon_S3-569A31?style=for-the-badge&logo=amazons3&logoColor=white)
 ![AWS Glue](https://img.shields.io/badge/AWS_Glue-FF9900?style=for-the-badge)
