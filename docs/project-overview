@@ -1,0 +1,37 @@
+# Project Overview
+
+## About the Project
+
+I built this project to understand how customer data from different business systems can be brought together using AWS.
+
+In many companies, customer information is spread across different departments. The CRM system stores customer details, the sales system keeps purchase records, the support team manages tickets, and the marketing team tracks campaign responses. Since all of this information exists separately, it becomes difficult to get a complete picture of a customer.
+
+This project solves that problem by storing the datasets in Amazon S3, discovering them with AWS Glue, and querying them using Amazon Athena. The result is a single Customer 360 view that combines information from multiple sources.
+
+---
+
+## Technologies Used
+
+- Amazon S3
+- AWS IAM
+- AWS Glue Crawler
+- AWS Glue Data Catalog
+- Amazon Athena
+- SQL
+
+---
+
+## Datasets
+
+The project uses four datasets:
+
+- CRM
+- Transactions
+- Support Tickets
+- Marketing Campaigns
+
+---
+
+## What I Learned
+
+Working on this project helped me understand how AWS services work together in a serverless analytics workflow. I also gained hands-on experience with schema discovery, metadata management, and SQL-based data analysis using Athena.
