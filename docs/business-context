@@ -1,0 +1,18 @@
+# Business Context
+
+Most organizations collect customer information through multiple systems instead of storing everything in one place.
+
+For example, the sales team knows what a customer purchased, the support team knows what issues they reported, and the marketing team knows which campaigns they interacted with. Looking at these datasets individually provides only a partial view of the customer.
+
+The goal of this project is to combine those datasets into a single analytical view.
+
+With this unified view, business users can answer questions such as:
+
+- Which customers generate the highest revenue?
+- Which products are performing well?
+- Which customers have raised multiple support tickets?
+- How are customers responding to marketing campaigns?
+
+Instead of searching through multiple systems, analysts can retrieve this information with SQL queries using Amazon Athena.
+
+Although this project uses sample datasets, the same architecture can be applied to larger business environments where customer data needs to be analyzed efficiently.
