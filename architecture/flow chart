@@ -1,0 +1,32 @@
+                     🚀 Customer 360 Analytics Platform
+
+                               Source Data
+
+┌────────────────┐ ┌────────────────┐ ┌────────────────┐ ┌────────────────┐
+│ 👤 CRM Data     │ │ 💳 Transactions │ │ 🎫 Support     │ │ 📢 Marketing   │
+│ Customer Data   │ │ Purchase Data  │ │ Tickets        │ │ Campaigns      │
+└────────────────┘ └────────────────┘ └────────────────┘ └────────────────┘
+          │                  │                  │                  │
+          └──────────────────┴──────────────────┴──────────────────┘
+                                     │
+                                     ▼
+                  ☁️ Amazon S3 (Raw CSV Files Storage)
+                                     │
+                                     ▼
+                      🔍 AWS Glue Crawler (Schema Discovery)
+                                     │
+                                     ▼
+                     📚 AWS Glue Data Catalog (Metadata)
+                                     │
+                                     ▼
+                    ⚡ Amazon Athena (SQL Query Engine)
+                                     │
+                                     ▼
+                      👥 Customer 360 Unified Customer View
+                                     │
+             ┌───────────────────────┼────────────────────────┐
+             ▼                       ▼                        ▼
+     💰 Revenue Analysis     🎫 Support Analysis     📢 Marketing Analysis
+                                     │
+                                     ▼
+                      📊 Business Insights & Reporting
