@@ -1,0 +1,13 @@
+# Implementation Notes
+
+The project follows a simple serverless data analytics workflow.
+
+First, all CSV files were uploaded to an Amazon S3 bucket. These files represent customer information collected from different business systems.
+
+After the data was stored in S3, an AWS Glue Crawler scanned the bucket and automatically created tables in the Glue Data Catalog. This removed the need to manually define schemas for each dataset.
+
+Once the tables were available, Amazon Athena was used to query the data directly from S3 using SQL. Different analytical queries were executed to answer business questions such as customer count, revenue analysis, support trends, and marketing performance.
+
+The final step was creating a Customer 360 view by joining data from all available datasets. This produced a unified customer profile that combines customer details, purchase history, support activity, and marketing interactions.
+
+The entire workflow runs without managing any servers, making it simple, scalable, and cost-effective for analytical workloads.
